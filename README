@@ -1,0 +1,43 @@
+Name: Ricardo Avila
+ID: 830323421
+
+Structure of Program:
+File organization: Test1.cpp Test2.cpp Test3.cpp
+Functional organization: 1 class of node with pointers
+
+Status: Program works with expected input and follows output of assignment. 
+Hardware & platform I used: Intel core i7 with 16GB RAM MacOS
+
+Task 2.2) The output is 
+Mammal constructor...
+Dog moves a step!
+Dog goes Hoof Hoof
+And is what i expected.
+
+Task 2.3) After removing virtual it now just runs it as if only the mammal versions of move and speak are the only ones that exist.
+
+Task 2.4) After adding back in the commented code the program now runs the first pDog as a class mammal and then pDog2 runs with the speak and move of class dog
+
+Task 3.1) Output is 
+1)dog (2)cat (3)horse (4)guinea pig: 5
+Mammal constructor...
+Dog goes Hoof Hoof
+Cag goes Meow
+Horse goes Neighhh
+Guinea goes weep weep
+What does the mammal speak? Mammilian!
+Mammal destructor...
+Mammal destructor...
+Mammal destructor...
+Mammal destructor...
+Mammal destructor...
+
+Question 3.2) Yes functions are passed along generations but members and data would be dependent on if they were public, private or protected and how the inheritance was added to the class for the next generation.
+
+Question 3.3) The original
+
+Question 3.4) An example of this would be from Test1.cpp where void Derived::testFunction() are similar in base and derived but both have different outs.
+
+Question 3.5) An example would be similar to Test1.cpp except we would need to not add a void Derived::testFunction() to Derived so that it would take the member function from base.
+
+Question 3.6) It is still virtual. Use Q3_6.cpp to see in use
